@@ -2,6 +2,7 @@ _tasks = []
 
 def add_task(name):
     _tasks.append(name)
+    print(f"[INFO] Задачка добавлена: {name}")
 
 def list_tasks():
     for t in _tasks:
